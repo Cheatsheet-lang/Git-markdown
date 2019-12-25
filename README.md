@@ -26,6 +26,7 @@
 ```git
 *Italics*
 **Bold text**
+***Bold and Italics***
 ```
 
 #### Appearence
@@ -34,4 +35,49 @@
 
 **Bold Text**
 
-***Something***
+***Bold and Italics***
+
+### Lists(Unordered and Ordered)
+
+#### Syntax
+Unordered list
+```git
+* list1
+* list2
+  * sublist1
+  * sublist2
+```
+
+#### Appearence
+* List item-1
+* List item-2
+  * Sublist-1
+  * Sublist-2
+
+### Links
+
+#### Syntax
+```git
+* [This is a link to GitHub](https://github.com)
+```
+#### Appearence
+* [This is a link to GitHub](https://github.com)
+
+### CheckBox
+
+#### Syntax
+```git
+* [] Checkbox1
+
+* [] Checkbox2
+
+* [x] Checkbox selected
+```
+
+#### Appearence
+
+* [] Checkbox1
+
+* [] Checkbox2
+
+* [x] Checkbox selected
