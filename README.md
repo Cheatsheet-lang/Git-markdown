@@ -27,6 +27,7 @@
 *Italics*
 **Bold text**
 ***Bold and Italics***
+~~Striked Text~~
 ```
 
 #### Appearence
@@ -36,6 +37,8 @@
 **Bold Text**
 
 ***Bold and Italics***
+
+~~Striked Text~~
 
 ### Lists(Unordered and Ordered)
 
@@ -59,25 +62,55 @@ Unordered list
 #### Syntax
 ```git
 * [This is a link to GitHub](https://github.com)
+* <https://www.google.com/>
 ```
 #### Appearence
 * [This is a link to GitHub](https://github.com)
+* <https://www.google.com/>
+
+### Tables
+
+#### Syntax
+```git
+|Header1|Header2|Header3|
+| --- | --- | --- |
+| This | is a | table |
+| This | is 2nd | row |
+| This | is 3rd | row |
+```
+
+#### Appearence
+|Header1|Header2|Header3|
+| --- | --- | --- |
+| This | is a | table |
+| This | is 2nd | row |
+| This | is 3rd | row |
 
 ### CheckBox
 
 #### Syntax
 ```git
-* [] Checkbox1
+* [ ] Checkbox1
 
-* [] Checkbox2
+* [ ] Checkbox2
 
 * [x] Checkbox selected
 ```
 
 #### Appearence
 
-* [] Checkbox1
+* [ ] Checkbox1
 
-* [] Checkbox2
+* [ ] Checkbox2
 
 * [x] Checkbox selected
+
+### Block Quotes
+
+#### Syntax
+```git
+> This is a block quoted text
+```
+
+#### Appearence
+> This is a block quoted text
