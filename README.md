@@ -256,3 +256,12 @@ __This will also be bold__
 
 _You **can** combine them_
 ```
+
+####Insert a break between lines</br>
+You can add </br>
+```git
+<br>
+```
+between lines to insert a break
+
+This text has a break in between that will make the second part </br> to be written onto the next line. 
