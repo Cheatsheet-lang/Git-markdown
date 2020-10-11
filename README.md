@@ -12,7 +12,7 @@
 ###### Heading 6
 ```
 
-#### Appearence
+#### Appearance
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -31,7 +31,7 @@
 ~~Striked Text~~
 ```
 
-#### Appearence
+#### Appearance
 
 *Italics*
 
@@ -53,7 +53,7 @@ Unordered list
   * sublist2
 ```
 
-#### Appearence
+#### Appearance
 * List item-1
 * List item-2
   * Sublist-1
@@ -68,7 +68,7 @@ Ordered list
     2. Three / Two 
 4. Fourth
 ```
-#### Apperaence
+#### Appearance
 1. First item
 2. Second item
 3. Third item
@@ -84,7 +84,7 @@ Ordered list
 * [This is a link to GitHub](https://github.com "GitHub Home Page")
 * <https://www.google.com/>
 ```
-#### Appearence
+#### Appearance
 * [This is a link to GitHub](https://github.com "GitHub Home Page")
 * <https://www.google.com/>
 
@@ -110,7 +110,7 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
  [![GitHub Logo](https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png "GitHub Logo")](https://github.com/)
 ```
 
-#### Appearence
+#### Appearance
 [![GitHub Logo](https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png "GitHub Logo")](https://github.com/)
 
 
@@ -125,7 +125,7 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 | This | is 3rd | row |
 ```
 
-#### Appearence
+#### Appearance
 |Header1|Header2|Header3|
 | --- | --- | --- |
 | This | is a | table |
@@ -144,7 +144,7 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 * [x] Checkbox selected
 ```
 
-#### Appearence
+#### Appearance
 
 * [ ] Checkbox1
 
@@ -160,7 +160,7 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 > This is a block quoted text
 ```
 
-#### Appearence
+#### Appearance
 > This is a block quoted text
 
 
@@ -171,7 +171,7 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 ___
 --- 
 ```
-#### Appearence
+#### Appearance
 All three will be rendered as:
 ___
 
@@ -192,7 +192,7 @@ There are three ways to add code in markdown
     console.log('four whitespace works too!')
     
     
-#### Appearence
+#### Appearance
 `this` is an example of inline code.
 ```
 console.log('Used backticks to show snippets')
@@ -226,7 +226,7 @@ If language name is mentioned after the end of first set of backticks, the code 
 
 
 
-#### Apperaence 
+#### Appearance 
 ```js
 console.log('javascript')
 ```
@@ -245,4 +245,14 @@ System.out.println('java')
   "lastName": "Joshi",
   "age": 18
 }
+```
+####Emphasis
+```
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
 ```
