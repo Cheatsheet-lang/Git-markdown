@@ -76,7 +76,6 @@ Ordered list
     2. Indented item
 4. Fourth item
 
-
 ### Links
 
 #### Syntax
@@ -84,10 +83,10 @@ Ordered list
 * [This is a link to GitHub](https://github.com "GitHub Home Page")
 * <https://www.google.com/>
 ```
+
 #### Appearance
 * [This is a link to GitHub](https://github.com "GitHub Home Page")
 * <https://www.google.com/>
-
 
 ### Images
 #### Syntax
@@ -113,7 +112,6 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 #### Appearance
 [![GitHub Logo](https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png "GitHub Logo")](https://github.com/)
 
-
 ### Tables
 
 #### Syntax
@@ -131,7 +129,6 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 | This | is a | table |
 | This | is 2nd | row |
 | This | is 3rd | row |
-
 
 ### CheckBox
 
@@ -152,7 +149,6 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 
 * [x] Checkbox selected
 
-
 ### Block Quotes
 
 #### Syntax
@@ -162,7 +158,6 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 
 #### Appearance
 > This is a block quoted text
-
 
 ### Horizontal Line
 #### Syntax
@@ -174,7 +169,6 @@ ___
 #### Appearance
 All three will be rendered as:
 ___
-
 
 ### Code Block
 There are three ways to add code in markdown
@@ -191,14 +185,12 @@ There are three ways to add code in markdown
     
     console.log('four whitespace works too!')
     
-    
 #### Appearance
 `this` is an example of inline code.
 ```
 console.log('Used backticks to show snippets')
 ```
-    console.log('four whitespace works too!')
-    
+    console.log('four whitespace works too!')    
 
 ### Syntax Highlighting
 If language name is mentioned after the end of first set of backticks, the code snippet will be highlighted according to the language.
@@ -224,8 +216,6 @@ If language name is mentioned after the end of first set of backticks, the code 
     }
     ```
 
-
-
 #### Appearance 
 ```js
 console.log('javascript')
@@ -246,7 +236,8 @@ System.out.println('java')
   "age": 18
 }
 ```
-####Emphasis
+
+#### Emphasis
 ```
 *This text will be italic*
 _This will also be italic_
@@ -257,7 +248,18 @@ __This will also be bold__
 _You **can** combine them_
 ```
 
-####Insert a break between lines</br>
+#### Appereance
+
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
+
+#### Insert a break between lines </br>
+
 You can add </br>
 ```git
 <br>
