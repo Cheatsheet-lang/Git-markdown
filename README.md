@@ -139,6 +139,14 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 * [ ] Checkbox2
 
 * [x] Checkbox selected
+
+or 
+
+- [ ] Checkbox1
+
+- [ ] Checkbox2
+
+- [x] Checkbox selected
 ```
 
 #### Appearance
@@ -148,6 +156,8 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 * [ ] Checkbox2
 
 * [x] Checkbox selected
+
+> using `- [ ]` or `* []` makes no difference. it shows the same checkboxes. You can use both.
 
 ### Block Quotes
 
