@@ -112,6 +112,19 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 #### Appearance
 [![GitHub Logo](https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png "GitHub Logo")](https://github.com/)
 
+### Resizing Images
+We use HTML along markdown to resize images easily.
+
+#### Syntax
+```
+<img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" height="50%" width="50%">
+```
+
+#### Appearence
+<img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" height="50%" width="50%">
+
+by using `height=""` and `width=""` we can resize images easily. in the example, we used 50% so the image size has decreased to 50% of the image.
+
 ### Tables
 
 #### Syntax
@@ -139,6 +152,14 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 * [ ] Checkbox2
 
 * [x] Checkbox selected
+
+or 
+
+- [ ] Checkbox1
+
+- [ ] Checkbox2
+
+- [x] Checkbox selected
 ```
 
 #### Appearance
@@ -148,6 +169,8 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 * [ ] Checkbox2
 
 * [x] Checkbox selected
+
+> using `- [ ]` or `* []` makes no difference. it shows the same checkboxes. You can use both.
 
 ### Block Quotes
 
