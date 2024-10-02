@@ -240,24 +240,45 @@ If language name is mentioned after the end of first set of backticks, the code 
     ```
 
 #### Appearance 
+> JavaScript Programming syntax
 ```js
 console.log('javascript')
 ```
 
+> C Programming syntax
+```c
+printf("Hello World!\n");
+```
+
+> Python Programming syntax
 ```python
 print('python')
 ```
 
+> Java Programming syntax
 ```java
 System.out.println('java')
 ```
 
+> JSON Programming syntax
 ```json
 {
   "firstName": "Kaushal",
   "lastName": "Joshi",
   "age": 18
 }
+```
+
+> XML Programming syntax
+```xml
+<Person>
+  <FirstName>
+    Anurag
+  </FirstName>
+  <LastName>
+    P
+  </LastName>
+</Person>
 ```
 
 #### Emphasis
